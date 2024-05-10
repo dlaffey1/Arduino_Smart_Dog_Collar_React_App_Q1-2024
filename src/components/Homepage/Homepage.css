@@ -1,0 +1,47 @@
+/* Homepage.css */
+
+.homepage {
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 170px; /* Adjust the width of the logo */
+  margin-right: 20px; /* Add spacing between the logo and the text */
+}
+
+.diagram {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  width: 50px; /* Adjust the width of the arrow */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Add spacing around the arrow */
+}

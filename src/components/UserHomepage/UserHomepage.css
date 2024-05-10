@@ -1,0 +1,147 @@
+/* UserHomepage.css */
+
+.user-homepage {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.user-homepage h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styles for Console Messages */
+.console {
+    margin-top: 20px;
+    padding: 10px; /* Add padding to the console */
+    background-color: #ffffff; /* Set background color */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.console h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.console ul {
+    list-style: none;
+    padding: 0;
+}
+
+.console li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-list li {
+    padding: 26px 30px;
+    padding: 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+/* Styling for Heat Warning Image */
+.heat-warning-image {
+    max-width: 100%;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Activity Tracker Styling */
+.activity-tracker {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.activity-tracker .checkpoint {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity-tracker .checkpoint.sleeping {
+    background-color: blue;
+}
+
+.activity-tracker .checkpoint.resting {
+    background-color: green;
+}
+
+.activity-tracker .checkpoint.active {
+    background-color: orange;
+}
+
+.activity-tracker .checkpoint p {
+    margin-top: -25px; /* Adjust this value to move the text above the circles */
+}
+
+
+.chart-container {
+    position: relative;
+  }
+  
+  .bark-counter {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bark-counter-text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+  }
+  
